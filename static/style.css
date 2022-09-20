@@ -1,0 +1,33 @@
+* {
+    /*폰트*/
+    font-family: 'Jua', sans-serif;
+    /*html에서 제공하는 기본 꾸밈 설정 제거*/
+    padding: 0;
+    margin: 0;
+    border: none;
+    text-decoration: none;
+}
+
+/*색 지정할 때(root 사용법)*/
+:root {
+    /*Color*/
+    --yellow-color: #FFC93C;
+}
+
+#txt_title {
+    background-color: var(--yellow-color);
+}
+
+/*post 시작*/
+.posting-box {
+    width: 500px;
+    margin-top: 20px;
+}
+.wrap {
+    width: 900px;
+    margin: auto;
+}
+.container {
+    padding-left: 50px;
+}
+/*post 끝*/
