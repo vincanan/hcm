@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+            crossorigin="anonymous"></script>
+    <title>햄최몇</title>
+    <script>
+        $.get("nav.html", function (data) {
+            $("#nav").replaceWith(data);
+        });
+    </script>
+    <style>
+        .mytitle {
+            position: absolute;
+            width: 100%;
+            height: 100px;
+            left: 0px;
+            top: 0px;
+
+            background: #FFFFFF;
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+        }
+
+        .titlepont {
+            position: absolute;
+            width: auto;
+            height: 32px;
+            left: 319px;
+            top: 34px;
+
+            font-style: normal;
+            font-weight: 400;
+            font-size: 32px;
+            line-height: 40px;
+
+            color: #000000;
+        }
+
+        .titlerecom {
+            position: absolute;
+            width: auto;
+            height: 32px;
+            left: 1071px;
+            top: 34px;
+
+            font-style: normal;
+            font-weight: 400;
+            font-size: 32px;
+            line-height: 40px;
+
+            color: #000000;
+        }
+
+        .login-box {
+            position: absolute;
+            width: 748px;
+            height: 676px;
+            left: 346px;
+            top: 221px;
+            position: center;
+
+            background: #FFFFFF;
+            box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.25);
+            border-radius: 50px;
+        }
+
+        .logpont {
+            position: center;
+            width: 200px;
+            height: 32px;
+            left: 657px;
+            top: 328px;
+            margin: 90px 0px 0px 280px;
+
+            font-style: normal;
+            font-weight: 400;
+            font-size: 48px;
+            line-height: 60px;
+
+            color: #000000;
+            text-align: center;
+
+        }
+
+        .myid {
+            position: center;
+            width: 470px;
+            height: 63px;
+            left: 485px;
+            top: 468px;
+
+            margin: 130px 0px 0px 148px;
+
+            background: #FFC93C;
+            box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.25);
+            border-radius: 50px;
+
+            padding: 10px 0px 0px 25px;
+        }
+
+        .mypass {
+            position: center;
+            width: 470px;
+            height: 63px;
+            left: 485px;
+            top: 468px;
+
+            margin: 40px 0px 0px 148px;
+
+            background: #FFC93C;
+            box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.25);
+            border-radius: 50px;
+
+            padding: 10px 0px 0px 25px;
+        }
+
+        .mybtn-log {
+            width: 147px;
+            height: 61px;
+            left: 560px;
+            top: 685px;
+
+            align-items: center;
+            justify-content: center;
+
+            flex-direction: row;
+            margin: 40px 0px 0px 205px;
+
+            background: #FFC93C;
+            box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.25);
+            border-radius: 50px;
+            border: 1px solid transparent;
+        }
+
+        .mybtn-pass {
+            width: 147px;
+            height: 61px;
+            left: 560px;
+            top: 685px;
+
+            align-items: center;
+            justify-content: center;
+
+            flex-direction: row;
+            margin: 40px 0px 0px 40px;
+
+            background: #FFC93C;
+            box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.25);
+            border-radius: 50px;
+            border: 1px solid transparent;
+        }
+
+
+    </style>
+</head>
+<body>
+<div class="wrap">
+    <div class="mytitle"><h1 class="titlepont">🍔햄최몇</h1>
+        <h1 class="titlerecom">추천 목록</h1>
+    </div>
+    <div class="login-box">
+        <h1 class="logpont">로그인</h1>
+        <h2 class="myid">👤아이디</h2>
+        <h2 class="mypass">🔒비밀번호</h2>
+        <button class="mybtn-log">로그인</button>
+        <button class="mybtn-pass">회원가입</button>
+    </div>
+
+</div>
+</body>
+</html>
